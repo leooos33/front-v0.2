@@ -10,13 +10,13 @@ const Body = () => {
                 
                 <DW />
 
-                <div className="px-3 lg:w-2/5 md:w-1/2 w-full">
+                <div className="pr-5 lg:w-2/5 md:w-1/2 w-full">
                     <div className="flex flex-row items-left mx-auto rounded-md py-4 bg-back1-b2">
-                        <div className= 'px-2'>
+                        <div className= 'px-3'>
                             <div className=''>Current share price
                             </div>
                         </div>          
-                        <div className= 'pl-16'> $1.4269 (+0.24%)
+                        <div className= 'pl-14'> $1.4269 (+0.24%)
                         </div>
                     </div>
                         <div className="flex flex-row items-left mx-auto rounded-md py-4 my-4 bg-back1-b2">
@@ -25,9 +25,12 @@ const Body = () => {
                             </div>          
                         </div>
                 </div>
+
+
+
                 <div className="lg:w-1/4 md:w-1/2 w-full">
-                    <div className="flex flex-row items-left mx-auto rounded-md py-4 bg-back1-b2">
-                        <div className= 'px-2'>
+                    <div className="flex flex-row items-left mx-auto rounded-md py-4 bg-back1-b2 -mr-4">
+                        <div className= 'px-4'>
                             <div className=''>My performance:
                             </div>
                             
@@ -55,14 +58,14 @@ const Body = () => {
                             <div className=''>ETH hodl
                             </div>
                         </div>          
-                        <div className= 'pl-36 -mx-1 text-sm text-gray1-g50'> +14.2%
+                        <div className= 'pl-32 ml-3 text-sm text-gray1-g50'> +14.2%
                         </div>
                             </div>
 
                         </div>          
                     </div>
-                    <div className="flex flex-row items-left mx-auto rounded-md py-4 my-4 bg-back1-b2">
-                        <div className= 'px-2'>
+                    <div className="flex flex-row items-left mx-auto rounded-md py-4 my-4 -mr-4 bg-back1-b2">
+                        <div className= 'px-4'>
                             <div className=''>Vault snapshot:
                             </div>
                             
@@ -72,7 +75,7 @@ const Body = () => {
                                     <div className='mt-5'>Exposure
                                     </div>
                                 </div>          
-                                <div className= 'pl-32 -ml-2  text-sm text-white'> ETH 51.1%
+                                <div className= 'pl-28 ml-2   text-sm text-white'> ETH 51.1%
                                 <p className='-ml-2'>USDC 24.3%</p>
                                 <p className='-ml-4'>oSQTH 24.6%</p>
                                 </div>
